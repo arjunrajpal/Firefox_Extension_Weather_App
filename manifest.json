@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+
+  "name": "Weather",
+
+  "version": "1.0",
+
+  "description": "A simple weather extension",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+
+  "browser_action": {
+    "default_icon" : "icons/icon-32.png",
+    "default_title": "Weather",
+    "default_popup": "index.html"
+  },
+
+  "web_accessible_resources": [
+    "css/bootstrap.min.css",
+    "css/style.css",
+    "css/bootstrap-select.min.css",
+    "js/jquery-1.12.4.js",
+    "js/jquery-ui.js",
+    "js/jquery.min.js",
+    "js/bootstrap.min.js",
+    "js/data.js",
+    "js/bootstrap-select.min.js",
+    "js/script.js"
+  ]
+}

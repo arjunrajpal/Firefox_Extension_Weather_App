@@ -1,0 +1,40 @@
+html,body{
+    width: 290px;
+    height: 200px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 230px;
+    max-width: 720px;
+    overflow-x: hidden;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn btn-primary {
+    margin-top: 30px;
+}
+
+body {
+    background-image: url('../images/background2.png');
+    background-size: 1000px 600px;
+}
+
+#weather_city_tables {
+    text-align: center;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+.close {
+    font-weight: bold;
+    opacity: 1;
+}
+
+#conditions {
+    font-weight: bold;
+    color: blanchedalmond;
+}
